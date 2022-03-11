@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
-  constructor() {}
+  username = ' Gigisssh';
+  judul = 'Ionic-Angular week 09';
+  constructor() {
+  }
 }
