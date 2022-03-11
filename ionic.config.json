@@ -1,0 +1,7 @@
+{
+  "name": "cido",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
