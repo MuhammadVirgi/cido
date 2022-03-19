@@ -10,6 +10,7 @@ import { NavController } from '@ionic/angular';
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
+<<<<<<< HEAD
   judul = 'Ionic-Angular week 09';
   constructor(private storage: Storage, public us: UserService,public navCtrl: NavController) {}
   userid = '';
@@ -61,5 +62,10 @@ export class AppComponent {
     this.username = await this.storage.get('username')
     
     console.log(this.username);
+=======
+  username = ' Gigisssh';
+  judul = 'Ionic-Angular week 09';
+  constructor() {
+>>>>>>> 9f7eeb6a833f3e2b382008aea52ce7b866d1c103
   }
 }
